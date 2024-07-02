@@ -1,0 +1,28 @@
+name: crispr-pipeline
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - cgatcore
+  - fastqc
+  - bowtie
+  - multiqc
+  - samtools
+  - mageck
+  - pandoc
+  - r-base
+  - r-here
+  - r-desctools
+  - r-pheatmap
+  - r-dplyr
+  - r-tidyr
+  - r-ggplot2
+  - bioconductor-deseq2
+  - r-rmarkdown
+  - r-optparse
+  - bcftools
+  - ca-certificates
+  - certifi
+  - openssl
+prefix: /home/tss38/miniconda3/envs/crispr-pipeline

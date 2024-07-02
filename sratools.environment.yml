@@ -1,0 +1,8 @@
+name: sratools
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bioconda::sra-tools
+prefix: /home/tss38/miniconda3/envs/sratools

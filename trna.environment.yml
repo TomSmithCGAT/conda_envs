@@ -1,0 +1,27 @@
+name: trna
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.8
+  - shrimp
+  - samtools
+  - pysamstats
+  - pysam
+  - gmap
+  - pandas
+  - biopython
+  - bowtie2
+  - bwa
+  - numpy
+  - scipy
+  - ca-certificates
+  - certifi
+  - openssl
+  - clustalw
+  - cgatcore
+  - salmon
+  - tbb==2020.2
+  - networkx
+prefix: /home/tss38/miniconda3/envs/trna

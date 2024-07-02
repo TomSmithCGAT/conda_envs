@@ -1,0 +1,22 @@
+name: induce_seq
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - fgbio
+  - mamba
+  - cgatcore
+  - fastqc
+  - multiqc
+  - ca-certificates
+  - certifi
+  - openssl
+  - refgenie
+  - bwa
+  - picard-slim
+  - bedtools
+  - samtools
+  - pysam
+prefix: /home/tss38/miniconda3/envs/induce_seq

@@ -1,0 +1,12 @@
+name: hisat2
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bioconda::hisat2
+  - python=3.11
+  - bioconda::refgenie
+  - ca-certificates
+  - openssl
+prefix: /home/tss38/miniconda3/envs/hisat2
